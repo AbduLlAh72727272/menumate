@@ -1,0 +1,52 @@
+name: Place an Order
+description: Submit a food order request via GitHub Issues
+labels: [order]
+title: "Order: <Your Name> - <City>"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your order! Fill the details below. We'll confirm via your contact info.
+  - type: input
+    id: name
+    attributes:
+      label: Full Name
+      description: Your full name
+      placeholder: John Doe
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact (Email/Phone)
+      description: We'll use this to reach you
+      placeholder: +1 555-555-5555 / john@example.com
+    validations:
+      required: true
+  - type: textarea
+    id: items
+    attributes:
+      label: Items
+      description: List the items you want and quantities
+      placeholder: |
+        - Margherita x2
+        - Pepperoni x1
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Delivery address, preferences, allergens, etc.
+      placeholder: Apartment, street, landmark, time window
+    validations:
+      required: false
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - Normal
+        - ASAP
+    validations:
+      required: false
