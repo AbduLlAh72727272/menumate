@@ -3,7 +3,7 @@
 [![Flutter](https://img.shields.io/badge/Flutter-3.x-blue?logo=flutter)](https://flutter.dev)
 [![Platform](https://img.shields.io/badge/Platforms-Android%20%7C%20iOS%20%7C%20Web-009688)](#)
 [![Deploy](https://img.shields.io/badge/Live_Demo-GitHub_Pages-FF9F1C)](#live-demo)
-[![Stars](https://img.shields.io/github/stars/OWNER/REPO?style=social)](#)
+[![Stars](https://img.shields.io/github/stars/AbduLlAh72727272/menumate?style=social)](https://github.com/AbduLlAh72727272/menumate/stargazers)
 
 MenuMate showcases sophisticated Flutter UI design with the **"Deep Lagoon & Citrus Spark"** color scheme, featuring advanced animations, custom painters, and premium interactions that set it apart from typical food delivery apps.
 
@@ -94,6 +94,13 @@ lib/
 ---
 
 This implementation showcases the level of sophistication and attention to detail that separates professional Flutter development from basic app creation, making it an ideal portfolio piece for attracting high-quality client work.
+
+## 🚀 Live Demo & Orders
+
+- **Live Demo (Web)**: https://AbduLlAh72727272.github.io/menumate/
+- **Place an Order via GitHub**: https://github.com/AbduLlAh72727272/menumate/issues/new?template=order.yml
+
+The order form uses GitHub Issues with a structured template to capture order details.
 
 
 
