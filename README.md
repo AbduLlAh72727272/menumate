@@ -95,19 +95,7 @@ lib/
 
 This implementation showcases the level of sophistication and attention to detail that separates professional Flutter development from basic app creation, making it an ideal portfolio piece for attracting high-quality client work.
 
-## 🚀 Live Demo & Orders
 
-- **Live Demo (Web)**: https://YOUR_GITHUB_USERNAME.github.io/menumate/
-- **Place an Order via GitHub**: https://github.com/YOUR_GITHUB_USERNAME/menumate/issues/new?template=order.yml
-
-Replace `YOUR_GITHUB_USERNAME` after you publish the repo. The order form uses GitHub Issues with a structured template to capture order details.
-
-## 📸 Screenshots
-
-Add your screenshots in `assets/screenshots/` and reference them here:
-
-![Home](assets/screenshots/home.png)
-![Details](assets/screenshots/details.png)
 
 ## 🧰 CI/CD: Auto‑Deploy Flutter Web to GitHub Pages
 
